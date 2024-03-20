@@ -4,7 +4,7 @@ This project implements a hand gesture-based volume control system using your we
 
 **Features:**
 
-* **Hand Tracking:** Utilizes a [hand_tracking_module.py](modules/hand_tracking_module.py) file  to detect and localize your hand and fingers in the webcam feed.
+* **Hand Tracking:** Utilizes a [hand_tracking_module.py](hand_tracking_module.py) file  to detect and localize your hand and fingers in the webcam feed.
 * **Volume Control:** The distance between your thumb and index fingertip determines the volume level.
 * **Visual Feedback:** A volume bar and percentage display provide visual cues for the current volume.
 
@@ -14,7 +14,7 @@ This project implements a hand gesture-based volume control system using your we
 * OpenCV library (`pip install --upgrade opencv-python`)
 * Mediaipipe library(`python -m pip install mediapipe`)
 * PyCaw library(`pip install pycaw`)
-* [hand_tracking_module.py](modules/hand_tracking_module.py)
+* [hand_tracking_module.py](hand_tracking_module.py)
 
 **Instructions:**
 
